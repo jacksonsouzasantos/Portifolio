@@ -10,7 +10,7 @@
  </p>
 
 <p align="left">
-🧑🏿‍💻   Linguagens: <strong>Html | Css | JavaScript </strong>
+🧑🏿‍💻   Linguagens: <strong> Html | Css | </strong>
 </p>
 
 <p align="left">
