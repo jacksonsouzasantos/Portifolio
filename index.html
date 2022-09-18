@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Portfólio | Jackson Santos</title>
+  <link rel="icon" type="img" href="/assets/img/logo.png" />
+  <!-- links -->
+  <link rel="stylesheet" href="/style/stylefront.css" />
+  <link rel="stylesheet" href="/style/footer.css" />
+</head>
+
+<body onload="typeWriter(fName);">
+  <div>
+    <!-- menu -->
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <div class="barra">
+      <div class="menu-centro">
+        <div class="barra-conteiner centralizador">
+          <div class="logo esquerda">
+            <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
+          </div>
+          <nav class="direita">
+            <ul onclick="getElementById('close-menu').checked=false;">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- fim do menu -->
+    <!-- primeira tela -->
+    <section id="inicio">
+      <div class="altura-ajuste">
+        <div class="inicio centralizador">
+          <div class="corretor organizador">
+            <div class="apresentacao">
+              <p class="descricao">
+                Olá, eu sou <br />
+                <span style="display: inline" class="nome">Jackson Santos.</span>
+                <br />
+                <!-- Desenvolvedor-->
+                Estudante de desenvolvimento web
+              </p>
+              <br />
+              <div class="linkedin">
+                <a href="" target="_blank" class="link">Linkedin</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img class="programer" src="/assets/img/programmer.png" alt="Minha imagem">
+                  </div>
+                  <div class="flip-card-back">
+                    <img src="/assets/img/JackoangithubImg.jpg" alt="Minha imagem" style="width:300px;height:300px; ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fim da primeira tela -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-conteiner">
+        <div class="contato-creditos">
+          <br />
+          Redes Sociais | Contato <br />
+          <br />
+        </div>
+        <div class="icons">
+          <div class="links links1">
+            <a href="" target="_blank">
+              <img class="transparente" src="/assets/img/facebook.png" alt="facebook" />
+            </a>
+          </div>
+          <div class="links links2">
+            <a href="" target="_blank">
+              <img class="transparente" src="/assets/img/gmail.png" alt="gmail" />
+            </a>
+          </div>
+          <div class="links links3">
+            <a href="" target="_blank">
+              <img class="transparente" src="/assets/img/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+          <div class="links links4">
+            <a href="" target="_blank">
+              <img class="transparente" src="/assets/img/twitter.png" alt="twitter" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="/js/effect_maquina"></script>
+</body>
+
+</html>
